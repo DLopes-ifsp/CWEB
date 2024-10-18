@@ -1,0 +1,33 @@
+body {
+    background-color: #460067;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.menu {
+    background:white;
+    color:purple;
+}
+
+.menu ul {
+    display:ruby;
+
+}
+
+.menu li {
+    list-style:circle;
+}
+
+a {
+   text-decoration:overline;
+   color:black; 
+}
+a {
+    text-decoration:underline;
+    color:purple; 
+ }
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
