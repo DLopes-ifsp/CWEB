@@ -1,0 +1,28 @@
+* {
+    font-family: "Coiny";
+}
+
+
+body {
+    background-color:#460067;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.welcome {
+    font-family: "Coiny";
+    display:grid;
+    color: purple;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    text-decoration:underline;
+}
+
+.menu {
+    font-family: "Modak";
+    display: flex;
+    background:white;
+    color:purple;
+    text-align: center;
+ }
