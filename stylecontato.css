@@ -11,13 +11,13 @@ body {
 .menu {
     display: flex;
     background:white;
-    color:purple;
+    color:#460067;
     text-align: center;
  }
 
  .welcome {
     display:grid;
-    color: purple;
+    color:#460067;
     background-color: whitesmoke;
     text-align: center;
     font-size: large;
@@ -29,4 +29,31 @@ body {
     flex-direction: column;
     color: white;
     align-items: center;
+    border-radius: 200px;
+}
+.enviar {
+    cursor: pointer;
+    border-radius: 8px;
+    color:#460067;
+    border-color:#460067;
+    transition: .2s;
+}
+
+footer{
+    background-color: whitesmoke;
+    display: ruby;
+    color: #460067;
+    
+}
+
+.btn-social{
+    display: flex;
+}
+
+.btn-social a{
+    display: flex;
+    padding: 2px;
+    background-color:#460067;
+    cursor: pointer;
+    border-radius: 8px;
 }

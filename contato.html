@@ -42,20 +42,33 @@
     <hr>
     <nav class="Contato">
         <h2>Contato</h2>
-        <form action="https://api.staticforms.xyz/submit" method="post">
+        <form action="https://formsubmit.co/lopes.douglas@aluno.ifsp.edu.br" method="post">
             <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+            <input type="text" name="name" placeholder="Digite seu nome" /required="on" autocomplete="off">
             <hr>
             <label>Email</label>
-            <input type="text" name="name" placeholder="Insira seu email" autocomplete="off">
+            <input type="text" name="name" placeholder="Insira seu email" /required="on" autocomplete="off">
             <hr>
             <label>Mensagem</label><br>
-            <textarea name="message" cols="30" rows="10" placeholder="Qual sua mensagem?"></textarea>
-
+            <textarea name="message" cols="30" rows="10" placeholder="Qual sua mensagem?" /required="on"> </textarea>
             <hr>
-            <button type="submit">Enviar</button>
+            <input type="hidden" name="_captcha" value="false">
+            <button class="enviar" type="submit">Enviar</button>
         </form>
     </nav>
+    <footer>
+        <div class="btn-social">
+            <a href="https://www.instagram.com/just.lopess/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" width="24px" height="24px">
+            </a>
+        </div>
+        <div class="mensagem">
+            <h4>Site por : Douglas Lopes</h4>
+        </div>
+        <div class="borda">
+            <p><i class="envelope"></i></p>
+        </div>
+    </footer>
 </body>
 
 </html>
